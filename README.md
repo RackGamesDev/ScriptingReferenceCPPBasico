@@ -1,2 +1,2 @@
 # ScriptingReferenceCPPBasico
-Lo basico ce c++ en español
+Lo básico de C++ en español
