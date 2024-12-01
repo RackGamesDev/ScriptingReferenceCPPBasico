@@ -1,10 +1,10 @@
-//podria incluir otras librerias
-//esto es un paquete y se debe guardar como .h, no como .cpp
-//las librerias luego pueden compartir codigo con otros scripts al importarlas
-//no hay que compilar los .h
+//Podria incluir otras librerias
+//Esto es un paquete y se debe guardar como .h, no como .cpp
+//Las librerias luego pueden compartir codigo con otros scripts al importarlas
+//No hay que compilar los .h
 
-namespace paquetico{//lo que haya dentro de un namespace sera solo propio contando como otro script excepto por los include y los using
-//cosas publicas que se podran usar fuera
+namespace paquetico{//Lo que haya dentro de un namespace sera solo propio contando como otro script excepto por los include y los using
+//Cosas publicas que se podran usar fuera
 int Sumar(int x, int y){
 	return x + y;
 }
@@ -28,6 +28,6 @@ class Objeto{
 		}
 };
 }
-int hora = 60;//esto esta fuera del namespace y se podra usar simplemente importandola y ya
+int hora = 60;//Esto esta fuera del namespace y se podra usar simplemente importandola y ya
 
 
