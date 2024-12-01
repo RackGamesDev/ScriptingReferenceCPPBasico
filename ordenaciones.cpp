@@ -3,10 +3,10 @@
 
 using namespace std;
 
-int main(){//algunos algoritmos de ordenacion de arrays
+int main(){//Algunos algoritmos de ordenacion de arrays
 
 	int numeros1[] = {1,0,2,9,3,8,4,7,5,6};
-	//burbuja
+	//Burbuja
 	int aux1;
 	for(int i=0; i<sizeof(numeros1) / sizeof(int); i++){
 		for(int ii=0; ii<sizeof(numeros1) / sizeof(int); ii++){
@@ -19,12 +19,8 @@ int main(){//algunos algoritmos de ordenacion de arrays
 	}
 
 	
-	
-	
-	
-	
 	int numeros2[] = {1,0,2,9,3,8,4,7,5,6};
-	//insercion
+	//Insercion
 	int aux2, pos;
 	for (int i=0; i<sizeof(numeros2) / sizeof(int); i++){
 		pos = i;
@@ -37,11 +33,8 @@ int main(){//algunos algoritmos de ordenacion de arrays
 	}
 	
 	
-	
-	
-	
 	int numeros3[] = {1,0,2,9,3,8,4,7,5,6};
-	//seleccion (no va)
+	//Seleccion
 	int aux3, min;
 	for (int i=0; i<sizeof(numeros3); i++){
 		min = i;
@@ -54,8 +47,6 @@ int main(){//algunos algoritmos de ordenacion de arrays
 		numeros3[i] = numeros3[min];
 		numeros3[min] = aux3;
 	}
-	
-	
 	
 	
 	for (int i=0; i<10; i++){
